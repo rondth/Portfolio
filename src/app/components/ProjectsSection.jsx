@@ -8,7 +8,7 @@ const projectsData = [
     id:1,
     title:"React Portfolio",
     description:"A personal portfolio website built using React and Tailwind CSS to showcase my projects and skills.",
-    imgUrl:"/images/projects/image1.jpg",
+    imgUrl:"./images/projects/image1.jpg",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/"
@@ -17,7 +17,7 @@ const projectsData = [
     id:2,
     title:"E-commerce Store",
     description:"An online store built with Next.js and Stripe integration for seamless payment processing.",
-    imgUrl:"/images/projects/image2.png",
+    imgUrl:"./images/projects/image2.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/"
@@ -25,7 +25,7 @@ const projectsData = [
   { id:3,
     title:"Blog Platform",
     description:"A blogging platform developed using Gatsby and GraphQL, featuring a user-friendly interface and SEO optimization.",
-    imgUrl:"/images/projects/image3.png",
+    imgUrl:"./images/projects/image3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/"
@@ -58,5 +58,6 @@ const ProjectsSection = () => {
     </div></>
   )
 }
+
 
 export default ProjectsSection
